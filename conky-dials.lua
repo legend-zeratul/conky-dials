@@ -32,7 +32,7 @@ function conky_main ()
   themes.nord.net_fg  = {{0x81, 0xa1, 0xc1, 1}, {0x5e, 0x81, 0xac, 1}}
   themes.nord.bat_fg  = {{0xd0, 0x87, 0x70, 1}}
   
-  curr_theme = themes.nord
+  curr_theme = themes.snow
 
   draw_dial(cr, conky_parse ("${cpu}"), "CPU",
                 convert_colors(curr_theme.dial_bg), 
