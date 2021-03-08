@@ -4,7 +4,8 @@ MIT License. Legend Zeratul.
 
 A simple, minimal system monitor like the one shown in the screenshots below:
 
-[TBD: Screenshots]
+![Screenshot 1](sshot-desktop-1.png?raw=true "Screenshot 1 (of 2)")
+![Screenshot 2](sshot-desktop-2.png?raw=true "Screenshot 2 (of 2)")
 
 The desktop shown in the above screenshot is standard XFCE - with Conky providing both the workspace indicator and the system monitor dials. The workspace indicator is read only (you cannot click on the indicator to switch workspaces - conky cannot handle clicks).
 
