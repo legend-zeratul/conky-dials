@@ -44,6 +44,7 @@ Lua bindings:
 ### 1.2. Install/Run the dials script ###
 - Copy/save/extract the conkyrc-dials.conf and the conky-dials.lua files to some folder (lets assume both scripts are in ```~/.conky/```)
 - If you have saved the files to a different folder, then pls open/update the path to the lua file in conkyrc-dials.conf (you can ignore this if you've saved the files to .conky under your home folder)
+- The conky commands executed by the script to get the disk use, CPU% etc are all in the lua file (lines 37-57) - most likely you will need to edit this section to update the folders you want to monitor, wireless lan setting, etc.
 - The script refreshes every 10 seconds (battery life saving) - you can edit this setting (update_interval) in the conkyrc-dials.conf file 
 - Run conky with ```conky -c ~/.conky/conkyrc-dials.conf```
 
