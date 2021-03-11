@@ -23,6 +23,7 @@ For the purpose of this readme, I'm going to assume that you are interested in t
 The dials are written in Lua, rendered through Cairo - so first thing we need is Conky installed with both Lua/Cairo support:
 
 #### For Arch/EndeavourOS/Manjaro users ####
+- Uninstall any existing conky packages (if applicable)
 - Using your package manager (yay, pamac, pacman, etc), install 'lua 5.4.2-1' first
 - Install the 'conky-cairo' package (1.11.3-1 as of the time of this script) 
 - Find/install the 'Inter' font (freely available online, package 'inter-font')
@@ -36,9 +37,8 @@ Lua bindings:
 ~~~
 
 #### For Ubuntu/Debian users ####
-(These instructions havent been tested yet - I'm working on it - will post an update shortly.)
-
-- Install the 'conky-all' package (```sudo apt install conky-all```)
+- Uninstall any existing conky packages (if applicable)
+- Install the 'lua5.4' and conky-all' packages (```sudo apt install lua5.4 conky-all```)
 - Install 'fonts-inter' (```sudo apt install fonts-inter```)
 
 ### 1.2. Install/Run the dials script ###
