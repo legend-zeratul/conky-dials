@@ -37,27 +37,27 @@ function conky_main ()
   draw_dial(cr, conky_parse ("${cpu}"), "CPU",
                 convert_colors(curr_theme.dial_bg), 
                 convert_colors(curr_theme.arc_bg), 
-                convert_colors(curr_theme.cpu_fg[1]), 55, 190, 43)
+                convert_colors(curr_theme.cpu_fg[1]), 130, 190, 43)
   
   draw_dial(cr, conky_parse ("${memperc}"), "Memory",
                 convert_colors(curr_theme.dial_bg), 
                 convert_colors(curr_theme.arc_bg), 
-                convert_colors(curr_theme.mem_fg[1]), 165, 190, 43)
+                convert_colors(curr_theme.mem_fg[1]), 240, 190, 43)
 
   draw_dial(cr, conky_parse ("${fs_used_perc /swift}"), "/swift",
                 convert_colors(curr_theme.dial_bg), 
                 convert_colors(curr_theme.arc_bg), 
-                convert_colors(curr_theme.dsk_fg[1]), 275, 190, 43)
+                convert_colors(curr_theme.dsk_fg[1]), 350, 190, 43)
 
   draw_dial(cr, conky_parse ("${wireless_link_qual_perc wlan0}"), "Wi-Fi",
                 convert_colors(curr_theme.dial_bg), 
                 convert_colors(curr_theme.arc_bg), 
-                convert_colors(curr_theme.net_fg[1]), 385, 190, 43)
+                convert_colors(curr_theme.net_fg[1]), 460, 190, 43)
 
   draw_dial(cr, conky_parse ("${battery_percent}"), "Battery",
                 convert_colors(curr_theme.dial_bg), 
                 convert_colors(curr_theme.arc_bg), 
-                convert_colors(curr_theme.bat_fg[1]), 495, 190, 43)
+                convert_colors(curr_theme.bat_fg[1]), 570, 190, 43)
 
   cairo_destroy (cr)
   cairo_surface_destroy (cs)
