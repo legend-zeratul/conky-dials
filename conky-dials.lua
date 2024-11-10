@@ -1,6 +1,7 @@
 -- This is the lua script that renders the dials for use with conkyrc-dials.conf.
 -- MIT License. Legend Zeratul.
 require 'cairo'
+require 'cairo_xlib' 
 
 function conky_main ()
   if conky_window == nil then
